@@ -1,8 +1,7 @@
 import React from "react";
 import Loader from "./Loader";
 import {
-  useGetAllCryptoNewsQuery,
-  useGetTopCryptoNewsQuery,
+  useGetAllCryptoNewsQuery
 } from "../services/cryptoNewsApi";
 import NewsCard from "./NewsCard";
 

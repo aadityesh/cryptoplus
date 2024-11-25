@@ -1,10 +1,17 @@
 import React from "react";
 import { useGetCryptosQuery } from "../services/cryptoApi";
 import CryptoCard from "./CryptoCard";
+import Loader from "./Loader";
 
 const TopCrypto = ({ count }) => {
   const { data, isFetching } = useGetCryptosQuery(count);
-  if (isFetching) return <>Loading</>;
+  if (isFetching) {
+    return (
+      <>
+        <Loader />
+      </>
+    );
+  }
   const coins = data?.data?.coins;
   console.log(coins);
 

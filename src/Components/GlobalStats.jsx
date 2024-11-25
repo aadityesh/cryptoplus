@@ -1,9 +1,10 @@
 import React from "react";
 import { useGetGlobalStatsQuery } from "../services/cryptoApi";
+import Loader from "./Loader";
 
 const GlobalStats = () => {
   const { data, isFetching } = useGetGlobalStatsQuery();
-  console.log(data);
+  // console.log(data);
 
   //    referenceCurrencyRate: 1;
   //    total24hVolume: "203954885757";
@@ -11,6 +12,14 @@ const GlobalStats = () => {
   //    totalExchanges: 188;
   //    totalMarketCap: "3495835788667";
   //    totalMarkets: 48559;
+
+  if (isFetching) {
+    return (
+      <>
+        <Loader />
+      </>
+    );
+  }
 
   return (
     <>
@@ -21,7 +30,7 @@ const GlobalStats = () => {
             A digital platform that fulfills <br /> all of your crypto needs.
           </p>
         </section>
-        <section className="flex max-w-[375px] flex-col gap-4 rounded-md bg-blue-600 p-4 lg:max-w-[800px]">
+        <section className="flex w-[375px] flex-col gap-4 rounded-md bg-blue-600 p-4 lg:w-[700px]">
           <p className="text-2xl font-semibold lg:text-4xl">
             Global Statistics
           </p>

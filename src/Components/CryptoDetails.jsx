@@ -15,7 +15,13 @@ const CryptoDetails = ({ setSelectedPage }) => {
     setSelectedPage("Cryptocurrencies");
   }, []);
 
-  if (isFetching) return <Loader />;
+  if (isFetching) {
+    return (
+      <>
+        <Loader />
+      </>
+    );
+  }
   const coin = data.data.coin;
   console.log(data);
   console.log(coin);
