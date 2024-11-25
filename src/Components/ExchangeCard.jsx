@@ -16,7 +16,7 @@ const ExchangeCard = ({ exchange }) => {
       <section className="flex flex-col">
         <section className="flex items-center justify-between">
           <section>
-            <p className="text-xl lg:text-2xl">{exchange.name}</p>
+            <p className="text-xl font-semibold lg:text-2xl">{exchange.name}</p>
             <p>{exchange.type}</p>
           </section>
           <img
@@ -25,7 +25,7 @@ const ExchangeCard = ({ exchange }) => {
             alt={exchange.name}
           />
         </section>
-        <section className="pt-[20px]">
+        <section className="pt-[20px] lg:pt-[40px]">
           <p className="text-[10px]">{exchange.website}</p>
         </section>
       </section>

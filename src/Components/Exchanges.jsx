@@ -58,7 +58,7 @@ const Exchanges = () => {
   return (
     <div className="mt-[80px] p-2 lg:ml-[300px] lg:mt-2">
       <h1 className="text-2xl font-semibold lg:text-5xl">Exchanges</h1>
-      <section className="flex flex-col gap-5 pt-[30px]">
+      <section className="grid grid-cols-1 grid-rows-1 gap-2 pt-[30px] md:grid-cols-2 md:grid-rows-2 md:gap-5">
         {exchanges.map((exchange) => (
           <ExchangeCard exchange={exchange} />
         ))}
