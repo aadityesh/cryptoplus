@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  background-color: var(--bgColour);
+  color: var(--textColour);
+}
+
+.dark {
+  --bgColour: #14171a;
+  --textColour: white;
+  background-color: var(--bgColour);
+  color: var(--textColour);
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
