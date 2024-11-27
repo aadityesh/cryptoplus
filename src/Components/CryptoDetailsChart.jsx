@@ -4,6 +4,7 @@ import { Chart as ChartJS } from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import { LineChart } from "@mui/x-charts";
 import { DateTime } from "luxon";
+import Loader from "./Loader";
 
 const CryptoDetailsChart = ({ id, name }) => {
   const [timePeriod, setTimePeriod] = useState("7d");
