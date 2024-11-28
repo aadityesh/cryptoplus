@@ -22,7 +22,7 @@ A comprehensive cryptocurrency dashboard.
      * Paste your key in .env file
 2. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/crypto-plus.git](https://github.com/your-username/crypto-plus.git)
+   git clone https://github.com/aadityesh/cryptoplus/
 3. **Install the dependencies**
    ```bash
    cd crypto-plus
