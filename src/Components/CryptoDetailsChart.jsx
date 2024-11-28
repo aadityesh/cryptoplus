@@ -91,7 +91,7 @@ const CryptoDetailsChart = ({ id, name }) => {
             ))}
           </select>
         </section>
-        <section className="w-[500px] overflow-x-auto lg:w-[800px]">
+        <section className="h-[200px] w-full overflow-x-auto md:h-[400px] lg:h-[650px]">
           <Line data={chartData} options={options} />
         </section>
       </section>
