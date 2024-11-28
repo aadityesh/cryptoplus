@@ -23,12 +23,12 @@ const CryptoDetails = ({ setSelectedPage }) => {
     );
   }
   const coin = data.data.coin;
-  console.log(data);
-  console.log(coin);
+  // console.log(data);
+  // console.log(coin);
 
   return (
     <>
-      <section className="mt-[100px] p-4 pt-[25px] lg:ml-[300px] lg:mt-0 lg:min-w-[1100px]">
+      <section className="mt-[100px] p-4 pt-[25px] lg:ml-[300px] lg:mt-0 lg:min-w-[1200px]">
         <section className="flex items-center justify-between rounded-md p-2">
           <section className="flex flex-col gap-1 pl-2">
             <p className="text-2xl font-semibold lg:text-5xl">{coin?.name}</p>

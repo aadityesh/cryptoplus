@@ -31,7 +31,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
 
   return (
     <>
-      <div className="fixed left-0 top-0 z-[10] flex w-[100%] items-center gap-2 p-2 text-xl shadow-md lg:min-h-[100vh] lg:w-[300px] lg:flex-col lg:gap-10 lg:border-r-[4px] lg:border-slate-400 lg:pl-[20px] lg:text-2xl">
+      <div className="fixed left-0 top-0 z-[10] flex w-[100%] items-center gap-2 bg-[#14171a] p-2 text-xl shadow-md lg:min-h-[100vh] lg:w-[300px] lg:flex-col lg:gap-10 lg:border-r-[4px] lg:border-slate-400 lg:pl-[20px] lg:text-2xl">
         <section className="hidden min-w-[50px] gap-2 lg:flex lg:min-w-[100px] lg:items-center lg:justify-center lg:gap-4 lg:pt-[30px]">
           <img
             className="h-[30px] w-[30px] lg:h-[60px] lg:w-[60px]"

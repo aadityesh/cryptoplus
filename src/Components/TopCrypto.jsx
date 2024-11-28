@@ -13,7 +13,7 @@ const TopCrypto = ({ count }) => {
     );
   }
   const coins = data?.data?.coins;
-  console.log(coins);
+  // console.log(coins);
 
   return (
     <>
