@@ -1,9 +1,7 @@
 # Crypto+
-
 A comprehensive cryptocurrency dashboard.
 
 **Features:**
-
 * Coin Information
 * Global Market Overview
 * Exchanges
@@ -11,22 +9,25 @@ A comprehensive cryptocurrency dashboard.
 * Dark Theme
 
 **Tech Stack:**
-
 * React
-* Redux
-* Query JS
+* JavaScript
+* RTK Query
 * Rapid API
 
 **Getting Started:**
-
-1. **Clone the Repository:**
+1. **Setting Up API KEY:**
+     * Visit the following links and susbscribe to the API:
+        * https://crypto-news16.p.rapidapi.com
+        * https://coinranking1.p.rapidapi.com
+     * Paste your key in .env file
+2. **Clone the Repository:**
    ```bash
    git clone [https://github.com/your-username/crypto-plus.git](https://github.com/your-username/crypto-plus.git)
-2. **Install the dependencies**
+3. **Install the dependencies**
    ```bash
    cd crypto-plus
    npm install
-3. **Start the server**
+4. **Start the server**
    ```bash
-   npm run dev------
+   npm run dev
   
