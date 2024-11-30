@@ -9,10 +9,7 @@ A comprehensive cryptocurrency dashboard.
 * Dark Theme
 
 **Tech Stack:**
-* React
-* JavaScript
-* RTK Query
-* Rapid API
+* React * JavaScript * RTK Query * Rapid API
 
 **Getting Started:**
 1. **Setting Up API KEY:**
