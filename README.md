@@ -1,5 +1,6 @@
 # Crypto+
-A comprehensive cryptocurrency dashboard.
+* A comprehensive cryptocurrency dashboard.
+* URL - https://cryptoplus-three.vercel.app/
 
 **Features:**
 * Coin Information
@@ -8,23 +9,24 @@ A comprehensive cryptocurrency dashboard.
 * Crypto News
 * Dark Theme
 
-**Tech Stack:**
-[![React Logo](./images/react-logo.png)](https://reactjs.org/)
-[![RTK Query Logo](./images/rtk-query-logo.png)](https://redux-toolkit.js.org/rtk-query/)
-[![RapidAPI Logo](./images/rapidapi-logo.png)](https://rapidapi.com/)
+## Tech Stack:
+<a href="https://cdnlogo.com/logo/react_39944.html"><img src="https://static.cdnlogo.com/logos/r/85/react.svg" width="100"></a>
+<a href="https://cdnlogo.com/logo/javascript_18196.html"><img src="https://static.cdnlogo.com/logos/j/44/javascript.svg" width="100"></a>
+<a href="https://cdnlogo.com/logo/redux_36406.html"><img src="https://static.cdnlogo.com/logos/r/37/redux.svg" width="100"></a>
+<a href="https://logowik.com/rapidapi-logo-vector-svg-pdf-ai-eps-cdr-free-download-19632.html"><img src="https://logowik.com/content/uploads/images/rapidapi9164.logowik.com.webp" width="150"></a>
 
-**Getting Started:**
+## Getting Started:
 1. **Setting Up API KEY:**
      * Visit the following links and susbscribe to the API:
         * https://crypto-news16.p.rapidapi.com
         * https://coinranking1.p.rapidapi.com
-     * Paste your key in .env file
+     * Paste your api-key in .env file
 2. **Clone the Repository:**
    ```bash
    git clone https://github.com/aadityesh/cryptoplus/
 3. **Install the dependencies**
    ```bash
-   cd crypto-plus
+   cd cryptoplus
    npm install
 4. **Start the server**
    ```bash
