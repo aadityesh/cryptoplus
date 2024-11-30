@@ -9,7 +9,9 @@ A comprehensive cryptocurrency dashboard.
 * Dark Theme
 
 **Tech Stack:**
-* React * JavaScript * RTK Query * Rapid API
+[![React Logo](./images/react-logo.png)](https://reactjs.org/)
+[![RTK Query Logo](./images/rtk-query-logo.png)](https://redux-toolkit.js.org/rtk-query/)
+[![RapidAPI Logo](./images/rapidapi-logo.png)](https://rapidapi.com/)
 
 **Getting Started:**
 1. **Setting Up API KEY:**
